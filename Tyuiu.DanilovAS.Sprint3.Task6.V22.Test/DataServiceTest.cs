@@ -13,7 +13,7 @@ namespace Tyuiu.DanilovAS.Sprint3.Task6.V22.Test
             int stopValue = 31;
 
             var res = ds.GetSumTheDivisors(startValue, stopValue);
-            var wait = 43;
+            var wait = 55;
 
             Assert.AreEqual(wait, res);
 

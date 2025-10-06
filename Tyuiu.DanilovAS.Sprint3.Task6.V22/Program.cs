@@ -32,9 +32,6 @@ namespace Tyuiu.DanilovAS.Sprint3.Task6.V22
             int res = ds.GetSumTheDivisors(startValue, stopValue);
             Console.WriteLine($"Ответ равен => {res}");
             Console.ReadKey();
-
-
-
         }
     }
 }
