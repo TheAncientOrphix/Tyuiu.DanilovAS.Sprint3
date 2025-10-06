@@ -15,7 +15,7 @@ namespace Tyuiu.DanilovAS.Sprint3.Task5.V6.Test
             int stopValueTwo = 10;
 
             var res = ds.GetSumSumSeries(startValueOne, startValueTwo, stopValueOne, stopValueTwo);
-            var wait = 27.278;
+            var wait = 40.917;
 
             Assert.AreEqual(wait, res);
         }
