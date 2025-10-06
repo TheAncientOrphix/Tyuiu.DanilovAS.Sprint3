@@ -8,11 +8,14 @@ namespace Tyuiu.DanilovAS.Sprint3.Task0.V7.Test
         public void TestGetSumSeries()
         {
             DataService ds = new DataService();
+
             double value = 0.75;
             int startValue = 1;
             int stopValue = 20;
+
             var res = ds.GetSumSeries(value, startValue, stopValue);
-            var wait = 18.911;
+            var wait = 0.333;
+
             Assert.AreEqual(wait, res);
         }
     }
