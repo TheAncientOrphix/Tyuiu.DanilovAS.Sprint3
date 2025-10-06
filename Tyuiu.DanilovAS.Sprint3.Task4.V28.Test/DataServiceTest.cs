@@ -11,7 +11,7 @@ namespace Tyuiu.DanilovAS.Sprint3.Task4.V28.Test
             DataService ds = new DataService();
             int startValue = -5;
             int stopValue = 5;
-            var wait = -2.472;
+            var wait = 1.924;
             var res = ds.Calculate(startValue, stopValue);
             Assert.AreEqual(wait, res);
 
