@@ -34,8 +34,6 @@ namespace Tyuiu.DanilovAS.Sprint3.Task1.V21
             double res = ds.GetMultiplySeries(x, startValue, stopValue);
             Console.WriteLine($"Ответ равен => {res}");
             Console.ReadKey();
-
-
         }
     }
 }
