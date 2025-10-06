@@ -35,8 +35,6 @@ namespace Tyuiu.DanilovAS.Sprint3.Task5.V6
             double res = ds.GetSumSumSeries(startValueOne, startValueTwo, stopValueOne, stopValueTwo);
             Console.WriteLine($"Ответ равен => {res}");
             Console.ReadKey();
-
-
         }
     }
 }
